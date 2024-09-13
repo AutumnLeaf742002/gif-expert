@@ -8,7 +8,9 @@ export const GiftExpertApp = () => {
 
     return (
         <>
-            <AddCategory setCategories={setCategories} categories={categories} />
+            <header className='w-full bg-gray-600 h-12 flex justify-center items-center'>
+                <AddCategory setCategories={setCategories} categories={categories} />
+            </header>
             <ol>
                 {
                     categories.map(category => {

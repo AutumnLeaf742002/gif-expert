@@ -13,8 +13,9 @@ export const AddCategory = ({ setCategories, categories }) => {
     }
 
     return (
-        <form onSubmit={handlerSubmit}>
-            <input
+        <form onSubmit={handlerSubmit} className="w-full flex justify-center items-center">
+            <input 
+                className="w-1/3 bg-gray-700 text-white py-1 px-2"
                 type="text"
                 placeholder="Buscar Gif"
                 value={inputValue}

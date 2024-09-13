@@ -8,10 +8,10 @@ export const GifGrid = ({ category }) => {
 
     return (
         <div className="w-full p-2">
-            <h1 className="text-2xl">{ category }</h1>
+            <h1 className="text-2xl w-full text-center">{ category }</h1>
             
             {
-                <div className="w-full h-56 flex gap-4 justify-center">
+                <div className="w-full min-h-56 flex gap-4 justify-center p-2 border-2 border-gray-300">
                     {
                         images.map(data => {
 
